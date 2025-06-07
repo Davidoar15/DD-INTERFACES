@@ -15,7 +15,7 @@ ConversionTest.o: ConversionTest.c Conversion.h
 
 # Comandos
 hacerTablas: tablas
-			./tablas
+	    ./tablas
 
 tablas: $(OBJ)
 	$(CC) -o tablas $(OBJ)
